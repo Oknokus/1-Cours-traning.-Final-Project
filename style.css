@@ -1,0 +1,40 @@
+input {
+    margin-bottom: 50px
+  }
+
+  .container {
+    width: 400px; 
+    height: 300px;
+    border: 1px solid blue; 
+    position: relative;
+  }
+  
+  .player1,
+  .player2 {
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background: black;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #check1 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    transform: translate(0px, -44px);  
+  }
+  
+  #check2 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    transform: translate(356px, -88px);  
+  }
+
+  #IBall {
+    position: absolute;
+  } 
+
+  
